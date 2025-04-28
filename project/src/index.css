@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+.dark {
+  @apply text-gray-100;
+}
